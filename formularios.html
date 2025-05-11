@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megadeht-Formulario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <h1>Megadeth</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Discografia.html">Discografia</a></li>
+                    <li><a href="formularios.html">formulario</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+          <div>
+            <h1>Comunidad Megadeht</h1>
+            <p id="subtitulo">Completa el formulario,sumate a la comunidad Megadeth,enterate las noticias de tu banda favorita y <br>participa en el sorteo todas las semanas.</p>
+          </div>
+        <form action="gracias.html" method="get" enctype="multipart/form-data">
+            <!--<form action="gracias.html" method="post" enctype="multipart/form-data">-->
+
+            <div class="centro">
+                <div>
+                    <span>Nombre:</span>
+                    <input type="text" name="nombre" placeholder="Ingrese su nombre" autocomplete="off" required>
+                    <span>Apellido:</span>
+                    <input type="text" name="apellido" placeholder="Ingrese su apellido" autocomplete="off" required>
+                    <span>Email</span>
+                    <input type="text" name="email" placeholder="Adri@mail.com" autocomplete="off" required>
+                </div>
+        
+                
+
+                    <div>
+                        <span>Genero:</span>
+                        <label>Masculino
+                            <input name="sexo" type="radio" value="hombre" required>
+                            </label>
+                        <label>Femenino
+                            <input name="sexo" type="radio" value="mujer" checked>
+                        </label>
+                        <label><N>Binario
+                            <input name="sexo" type="radio" value="nobinario" id="n">
+                        </label>
+                    </div>
+                    <div>
+                        <span>Tu comentario</span>
+                        <textarea name="comentario" id="sol"></textarea>
+                    </div>
+                    <div>
+                        <span>Como conociste la banda</span>
+                            <select name="conociste">
+                            <option value="seleciona una opcion"selected disabled>selecciona una opcion</option>
+                            <option value="Un amigo o familiar">Un amigo o familiar</option>
+                            <option value="Plataformas digitales">Plataformas digitales </option>
+                            <option value="asistiendo a un evento">Asistiendo a un evento</option>
+                            <option value="influencers">influencers</option>
+                            </select>
+                
+                        <span>selecciona tu tema favorito</span>
+                            <select name="temas">
+                            <option value="seleciona una opcion"selected disabled>selecciona una opcion</option>
+                            <option value="The Sick, The Dying... And The Dead!">The Sick, The Dying... And The Dead!</option>
+                            <option value="Dystopia">Dystopia</option>
+                            <option value="Symphony Of Destruction">Symphony Of Destruction</option>
+                            <option value="A Tout Le Monde">A Tout Le Monde</option>
+                            </select>
+                    </div>
+            
+                
+                    <div id="boton">
+                        <input type="submit" id="enviar" value="Enviar">
+                        <input type="reset" id="borrar" value="borrar">
+                    </div>
+                
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div>
+        <ul>
+            <li>Ojeda Emilce |</li>
+            <li>Maquetado y Diseño web |</li>
+            <li>Prof:Garcia Mabel |</li>
+            <li>Entrega de TP2,primer cuatrimestre |</li>
+            <li>Escuela Da Vinci |</li>
+            <li>2024 </li>
+          </ul>
+        </div>
+    </footer>    
+    
+</body>
+</html>
