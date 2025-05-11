@@ -1,233 +1,233 @@
- body{
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    background-image: url(../img/fondo_0.jpg);
-    background-color: rgb(8, 8, 8);
-    background-attachment: fixed;
-    margin: 0;
-    
+body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-image: url(../img/fondo_0.jpg);
+  background-color: rgb(8, 8, 8);
+  background-attachment: fixed;
+  margin: 0;
 }
-header{
-    background-color:rgb(223, 132, 132);
-    background-image: url(../img/mustaine-david-ellefson.jpg);
-    width: 1280px;
-    padding: 20px;
-    border: 20px;
-    margin: 0 auto;
-    /*word-spacing: 45px; separacion entre palabras*/
-    text-decoration: none;
-    text-align: center;
+header {
+  background-color: rgb(223, 132, 132);
+  background-image: url(../img/mustaine-david-ellefson.jpg);
+  width: 1280px;
+  padding: 20px;
+  border: 20px;
+  margin: 0 auto;
+  /*word-spacing: 45px; separacion entre palabras*/
+  text-decoration: none;
+  text-align: center;
 }
 main {
-    background-color: rgb(12, 12, 12);
-    width: 1280px;
-    padding: 20px;
-    border: 20px;
-    margin: 0 auto;
+  background-color: rgb(12, 12, 12);
+  width: 1280px;
+  padding: 20px;
+  border: 20px;
+  margin: 0 auto;
 }
 
-p{
-   color: rgb(20, 19, 19);
-   line-height: 40px;/*interlineado*/
-   text-indent: 50px;
+p {
+  color: rgb(20, 19, 19);
+  line-height: 40px; /*interlineado*/
+  text-indent: 50px;
 }
-nav ul li{
-   background-color: rgb(15, 15, 15);
-   font-size: 20px;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   list-style-type:none ;
-   display: inline-block;
-   width: 200px;
-   margin-top: 30px;
-   margin-bottom: 10px;
-   margin-left: 30 px;
-   border-radius: 50px;
-   text-align: center;
+nav ul li {
+  background-color: rgb(15, 15, 15);
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style-type: none;
+  display: inline-block;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 30 px;
+  border-radius: 50px;
+  text-align: center;
 }
-.principal{
-   text-align: center;
-   background-image: url(../img/images.png);
-   padding: 15px;
+.principal {
+  text-align: center;
+  background-image: url(../img/images.png);
+  padding: 15px;
 }
 footer {
-   background-color: rgb(90, 80, 48);
-    width: 1280px;
-    padding: 20px;
-    border: 20px;
-    margin: 0 auto;
+  background-color: rgb(90, 80, 48);
+  width: 1280px;
+  padding: 20px;
+  border: 20px;
+  margin: 0 auto;
 }
-footer ul li{
-   display: inline-block;
-   font-size: 25px;
-   text-align: center;
-   padding: 10px;
-   border: 10px;
-   margin: 0 auto;
-} 
-h1,h2{
-   color: white;
-   font-size: 55px;
-   text-align: center;
+footer ul li {
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  border: 10px;
+  margin: 0 auto;
 }
-nav li a{
-   color: white;
-   text-decoration: none;
+h1,
+h2 {
+  color: white;
+  font-size: 55px;
+  text-align: center;
 }
-nav li a:hover{
-   color: rgb(35, 204, 204);
-   cursor:url("../img/calaberachico.png"),default;
-   
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: rgb(35, 204, 204);
+  cursor: url("../img/calaberachico.png"), default;
 }
 nav li a:visited {
-   color:brown;
+  color: brown;
 }
-ol li{
-   color: white;
+ol li {
+  color: white;
 }
-h3{
-   background: url(../img/logo.png) no-repeat 1050px 10px,
-               url(../img/logo\ 2.png)no-repeat 150px 10px;
-   color: white;
-   font-size: 50px;
-   text-align: center;
+h3 {
+  background: url(../img/logo.png) no-repeat 1050px 10px,
+    url(../img/logo\ 2.png) no-repeat 150px 10px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
 }
-#H { 
-   background-color: rgb(90, 80, 48);
-   margin:0px;
-   width: auto;
-   height: 400px;
-   display: flex;
-   justify-content: center;
-   border: solid;
-   border-radius: 40px;
+#H {
+  background-color: rgb(90, 80, 48);
+  margin: 0px;
+  width: auto;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  border: solid;
+  border-radius: 40px;
 }
 #Hd {
-   margin: -20px 20px;
-   font-size: 18px;
-   text-align:center;
-   padding: 5px;
+  margin: -20px 20px;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
 }
 #foto {
-   text-align: right;
-   padding-left: 5px;
-   margin-top: 50px;
-   width: 600px;
-   height:400px;
-   vertical-align: top ;
+  text-align: right;
+  padding-left: 5px;
+  margin-top: 50px;
+  width: 600px;
+  height: 400px;
+  vertical-align: top;
 }
-#somos{
-   background-color:rgb(90, 80, 48);
-   border-radius: 40px;
-   
+#somos {
+  background-color: rgb(90, 80, 48);
+  border-radius: 40px;
 }
-#somos p{
-   text-align: center;
-   font-size: 18px;
-   padding: 10px;
+#somos p {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
 }
 #cd:hover {
-   border: 2px solid white;
+  border: 2px solid white;
 }
-#disbanda{
-   background-color:rgb(80, 80, 79);
-   height: auto;
-   display: flex;
-   justify-content: center;
-   gap: 20px;
-   padding-top: 10px;
+#disbanda {
+  background-color: rgb(80, 80, 79);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 10px;
+}
+#contenedor-h {
+  background-color: rgb(90, 80, 48);
+  margin: 5px;
+  font-size: 20px;
+  padding: 25px;
+  border-radius: 40px;
+  border: solid 1px rgb(69, 48, 3);
+  column-count: 2;
+  width: auto;
+  column-rule: 2px double rgb(69, 48, 3);
+  column-gap: 50px;
+  margin-top: 20px;
+}
+.The,
+.War,
+.Dys,
+.Ico {
+  border: solid 1px rgb(120, 119, 119);
+  columns: 300px 2;
+  column-fill: balance;
+  border-radius: 10px;
+}
+.columnas {
+  column-span: all;
+  text-align: center;
+  border: solid 1px transparent;
+}
+.album-desc {
+  background-color: rgb(90, 80, 48);
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+}
+.album-desc p {
+  margin: 20px;
+  font-size: 20px;
+}
+#video div {
+  display: flex;
+  justify-content: space-between;
+}
+#subtitulo {
+  background: url(../img/logo.png) no-repeat 1150px 10px,
+    url(../img/logo\ 2.png) no-repeat 130px 10px;
 
+  color: white;
+
+  color: aliceblue;
+  text-align: center;
+  font-size: 20px;
+  width: 1280px;
+  padding: 30px;
+  border: 20px;
+  margin: 0 auto;
 }
-#contenedor-h{
-   background-color:rgb(90, 80, 48);
-   margin: 5px;
-   font-size: 20px;
-   padding: 25px;
-   border-radius:40px;
-   border: solid 1px  rgb(69, 48, 3) ;
-   column-count: 2;
-   width: auto;
-   column-rule: 2px double rgb(69, 48, 3);
-   column-gap: 50px;
-   margin-top: 20px;
+.centro {
+  background: url(../img/guitarra.png) no-repeat -50px 10px,
+    url(../img/guitarra.png) no-repeat 930px 10px;
+  background-color: rgb(155, 150, 132);
+  width: 1260px;
+  height: 400px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
-.The ,.War, .Dys, .Ico{
-   border: solid 1px rgb(120, 119, 119);
-   columns: 300px 2;
-   column-fill: balance;
-   border-radius: 10px;
+.centro div {
+  width: 800px;
 }
-.columnas{
-   column-span: all;
-   text-align: center;
-   border: solid 1px transparent;
+span {
+  display: inline-block;
+  vertical-align: top;
 }
-.album-desc{
-   background-color:  rgb(90, 80, 48);
-   display: flex;
-   padding: 10px;
-   border-radius: 10px;
-}
-.album-desc p{
-   margin: 20px;
-   font-size: 20px;
-}
-#video div{
-   display: flex;
-   justify-content:space-between;
-}
-#subtitulo{
-   background: url(../img/logo.png) no-repeat 1150px 10px,
-               url(../img/logo\ 2.png) no-repeat 130px 10px;
-               
-   color: white;
-   
-   color:aliceblue;
-   text-align:center;
-   font-size: 20px;
-   width: 1280px;
-   padding: 30px;
-   border: 20px;
-   margin: 0 auto;
-}
-.centro{
-   background: url(../img/guitarra.png) no-repeat -50px 10px,
-               url(../img/guitarra.png) no-repeat 930px 10px;
-   background-color: rgb(155, 150, 132) ;
-   width: 1260px;
-   height: 400px;
-   text-align: center;
-   font-size: 20px;
-   border-radius: 15px;
-   padding: 8px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-around;
-}
-.centro div{
-   width: 800px;
-}
-span{
-   display: inline-block;
-   vertical-align: top;
-}
-#sol{
-   width: 600px;
-   height: 200px;
+#sol {
+  width: 600px;
+  height: 200px;
 }
 .g {
-   background: url(../img/guitarra.png) no-repeat -50px 10px,
-               url(../img/guitarra.png) no-repeat 930px 10px;
-   background-color: rgb(155, 150, 132) ;
-   width: 1260px;
-   height: 400px;
-   text-align: center;
-   font-size: 30px;
-   border-radius: 15px;
-   padding: 8px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+  background: url(../img/guitarra.png) no-repeat -50px 10px,
+    url(../img/guitarra.png) no-repeat 930px 10px;
+  background-color: rgb(155, 150, 132);
+  width: 1260px;
+  height: 400px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
